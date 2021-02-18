@@ -1,8 +1,77 @@
 # pandas-challenge
-Observable trends
 
-1: Male dominated.  This has been a fairly historical trend for males to be more involved with gaming than women.  A lot of teenagers use it, it grows during college, and remains a present activity for many men during their 20s. 
 
-2.Total purchase value.  The majority of game purchasers being 20-24 would be logical. It will cover those that are just out or almost out of college. People graduate, start earning some money, and can spend more money on games than with a limited budget while in school, or asking for parents like those that fall into the teenage group. A vast majority of people nowadays tend to stay at home for a couple years after college due to high costs of living in a lot of areas and having a salary that doesn't allow them to move out. They can save a lot of money but also indulge on hobbies such as playing videos due to the lower amount of responsibilities. 
+Heroes of Pymoli
 
-3. Men buying more items.  This is quite easy to assume as the majority of gamers are men.  With men being nearly 85% of the gamers then it is logical that they would end up purchasing more items and spending more overall. 
+
+You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
+
+Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
+
+Your final report should include each of the following:
+
+### Player Count
+
+* Total Number of Players
+
+### Purchasing Analysis (Total)
+
+* Number of Unique Items
+* Average Purchase Price
+* Total Number of Purchases
+* Total Revenue
+
+### Gender Demographics
+
+* Percentage and Count of Male Players
+* Percentage and Count of Female Players
+* Percentage and Count of Other / Non-Disclosed
+
+### Purchasing Analysis (Gender)
+
+* The below each broken by gender
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
+  * Average Purchase Total per Person by Gender
+
+### Age Demographics
+
+* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
+  * Average Purchase Total per Person by Age Group
+
+### Top Spenders
+
+* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
+  * SN
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
+
+### Most Popular Items
+
+* Identify the 5 most popular items by purchase count, then list (in a table):
+  * Item ID
+  * Item Name
+  * Purchase Count
+  * Item Price
+  * Total Purchase Value
+
+### Most Profitable Items
+
+* Identify the 5 most profitable items by total purchase value, then list (in a table):
+  * Item ID
+  * Item Name
+  * Purchase Count
+  * Item Price
+  * Total Purchase Value
+
+As final considerations:
+
+* You must use the Pandas Library and the Jupyter Notebook.
+* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
+* You must include a written description of three observable trends based on the data.
+* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_starter.ipynb) for a reference on expected format.
